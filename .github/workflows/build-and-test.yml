@@ -30,8 +30,10 @@ jobs:
       run: dotnet build --no-restore -warnaserror
     - name: Code style check by dotnet format
       run: dotnet format --verify-no-changes
-    - name: Code style check by csharpier
-      run: dotnet csharpier check .
+    # csharpier is disabled: it conflicts with dotnet format (IDE0055) on empty-bodied
+    # chained constructors, and dotnet format is the authoritative style check.
+    #- name: Code style check by csharpier
+    #  run: dotnet csharpier check .
     - name: Test
       run: dotnet test --no-build --verbosity normal --logger trx --collect:"XPlat Code Coverage"
     - name: Combine Coverage Reports
