@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <EnablePackageValidation>true</EnablePackageValidation>
+    <IsAotCompatible>true</IsAotCompatible>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Pure.RelationalSchema.Storage.PostgreSQL.Updating</PackageId>
+    <RootNamespace>Pure.RelationalSchema.Storage.PostgreSQL.Updating</RootNamespace>
+    <AssemblyName>Pure.RelationalSchema.Storage.PostgreSQL.Updating</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <Description>PostgreSQL row updating for the Pure relational schema ecosystem — UPDATE decorators over Pure.RelationalSchema.Storage.PostgreSQL.Querying datasets.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.RelationalSchema.Storage.PostgreSQL.Updating</PackageProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Pure.RelationalSchema.Storage.PostgreSQL.Updating.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
