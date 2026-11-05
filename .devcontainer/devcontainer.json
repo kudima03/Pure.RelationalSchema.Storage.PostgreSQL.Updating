@@ -1,5 +1,5 @@
 {
-  "name": "<repo-name>",
+  "name": "Pure.RelationalSchema.Storage.PostgreSQL.Updating",
   "image": "mcr.microsoft.com/devcontainers/dotnet:dev-10.0",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
