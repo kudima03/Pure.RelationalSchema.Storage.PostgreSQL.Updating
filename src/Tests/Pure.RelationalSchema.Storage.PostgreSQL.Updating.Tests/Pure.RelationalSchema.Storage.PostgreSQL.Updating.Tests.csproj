@@ -11,6 +11,23 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
+    <PackageReference Include="Npgsql" Version="10.0.3" />
+    <PackageReference Include="Pure.RelationalSchema" Version="2.1.0" />
+    <PackageReference Include="Pure.RelationalSchema.Storage" Version="0.1.0-preview.8.0.0" />
+    <PackageReference
+      Include="Pure.RelationalSchema.Storage.PostgreSQL.Creation"
+      Version="0.1.0-preview.0.4.0"
+    />
+    <PackageReference
+      Include="Pure.RelationalSchema.Storage.PostgreSQL.Insertion"
+      Version="0.1.0-preview.1.0.0"
+    />
+    <PackageReference
+      Include="Pure.RelationalSchema.Storage.PostgreSQL.Querying"
+      Version="0.1.0-preview.0.9.1"
+    />
+    <PackageReference Include="System.Linq.Async" Version="7.0.1" />
+    <PackageReference Include="Testcontainers.PostgreSql" Version="4.16.0" />
     <PackageReference Include="xunit" Version="2.9.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="4.0.1">
       <PrivateAssets>all</PrivateAssets>
