@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <EnablePackageValidation>true</EnablePackageValidation>
+    <PackageValidationBaselineVersion>0.1.0-preview.0.1.0</PackageValidationBaselineVersion>
     <IsAotCompatible>true</IsAotCompatible>
   </PropertyGroup>
   <PropertyGroup>
