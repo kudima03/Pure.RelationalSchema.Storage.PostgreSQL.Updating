@@ -10,7 +10,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.11.1" />
     <PackageReference Include="Npgsql" Version="10.0.3" />
     <PackageReference Include="Pure.RelationalSchema" Version="2.1.0" />
     <PackageReference Include="Pure.RelationalSchema.Storage" Version="0.1.0-preview.8.0.0" />
