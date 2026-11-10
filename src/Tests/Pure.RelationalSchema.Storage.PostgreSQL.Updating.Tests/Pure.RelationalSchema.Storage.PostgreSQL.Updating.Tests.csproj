@@ -24,7 +24,7 @@
     />
     <PackageReference
       Include="Pure.RelationalSchema.Storage.PostgreSQL.Querying"
-      Version="0.1.0-preview.0.9.1"
+      Version="0.1.0-preview.0.10.0"
     />
     <PackageReference Include="System.Linq.Async" Version="7.0.1" />
     <PackageReference Include="Testcontainers.PostgreSql" Version="4.16.0" />
