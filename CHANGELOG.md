@@ -7,11 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-preview.0.2.0] - 2026-11-11
+
+### Added
+
+- .NET 11 support: the library now also targets `net11.0`.
+
+### Changed
+
+- Updated Pure package dependencies to their .NET 11 releases.
+
 ## [0.1.0-preview.0.1.0] - 2026-11-05
 
 ### Added
 
 - Row updating: `PostgreSqlStoredSchemaDataSetWithUpdatedRows` wraps an `IPostgreSqlStoredSchemaDataSet` and lazily applies updates grouped by table. Each update is a grouping whose key is the cells identifying the stored rows and whose elements are the cells to set; it becomes one `UPDATE … SET … WHERE …` statement (no `WHERE` for an empty key, so it updates every row), and a table's statements run in the supplied order as one command. Updates with nothing to set are skipped, and embedded single quotes in values are escaped.
 
-[Unreleased]: https://github.com/kudima03/Pure.RelationalSchema.Storage.PostgreSQL.Updating/compare/0.1.0-preview.0.1.0...HEAD
+[Unreleased]: https://github.com/kudima03/Pure.RelationalSchema.Storage.PostgreSQL.Updating/compare/0.1.0-preview.0.2.0...HEAD
+[0.1.0-preview.0.2.0]: https://github.com/kudima03/Pure.RelationalSchema.Storage.PostgreSQL.Updating/compare/0.1.0-preview.0.1.0...0.1.0-preview.0.2.0
 [0.1.0-preview.0.1.0]: https://github.com/kudima03/Pure.RelationalSchema.Storage.PostgreSQL.Updating/releases/tag/0.1.0-preview.0.1.0
