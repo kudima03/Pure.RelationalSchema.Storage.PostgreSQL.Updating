@@ -50,7 +50,7 @@ CI runs mutation testing via `dotnet-stryker` at `Complete` level with an 86% br
 
 **Multi-targeting:** net8.0, net9.0, net10.0, net11.0. `IsAotCompatible` is `true` and the build must stay free of IL2026/IL3050 warnings. Do not use `AsQueryable()` in library code (annotated as trim/AOT-unsafe).
 
-**Package validation:** `EnablePackageValidation = true`. `PackageValidationBaselineVersion` is the last published version (`0.1.0-preview.0.1.0`); bump it after each release so breaking API changes fail the build.
+**Package validation:** `EnablePackageValidation = true`. `PackageValidationBaselineVersion` is the last published version (`0.1.0-preview.0.2.0`); bump it after each release so breaking API changes fail the build.
 
 **Publishing:** triggered by pushing a semver tag matching `*.*.*`. The tag name becomes the `PackageVersion`. Packages are published to both GitHub Packages and NuGet.org.
 
